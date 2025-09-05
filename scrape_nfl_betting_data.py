@@ -56,6 +56,7 @@ def transform_scraped_odds(start_year, end_year):
     df['ou_result'] = df['over_under'].str.split(' ').str[0]
     df['ou_raw'] = df['over_under'].str.split(' ').str[1]
     df['ou_actual'] = df['favorite_score'] + df['underdog_score']
+    df['season'] = df['season'].round(0).astype(int).astype(str)
 
 
     df['game_id'] = (
@@ -91,11 +92,6 @@ def transform_scraped_odds(start_year, end_year):
         melted_df['underdog_score'],
         melted_df['favorite_score']
     )
-
-
-
-
-    melted_df['season'] = melted_df['season'].round(0).astype(int).astype(str)
 
     melted_df.head()
     df_final = melted_df[
@@ -155,7 +151,7 @@ def get_weekly_stats(start_year, end_year):
     ).rename(columns={
         'recent_team_x': 'team',
         'opponent_team_x': 'opponent'
-    }).drop(['recent_team_y', 'opponent_team_y'], axis=1)
+    }).drop(['recent_team_y', 'opponent_team_y'], axis=1).reset_index()
 
     return weekly_merged
 
@@ -209,7 +205,7 @@ df_stats = get_weekly_stats(2000, 2025)
 
 
 df_opponents = df_odds[['team', 'game_id']].rename(columns={'team': 'opponent'})
-df_odds = pd.merge(df_odds, df_opponents, how='inner', on='game_id') 
+df_odds = pd.merge(df_odds, df_opponents, how='inner', on='game_id').reset_index()
 df_odds = df_odds[df_odds['team'] != df_odds['opponent']]
 
 df_odds['team_abr'] = df_odds['team'].map(team_mapping)
@@ -224,3 +220,29 @@ odds_and_stats_merged = pd.merge(df_odds, df_stats, how='left',
     left_on=['season', 'week_num', 'team_abr', 'opponent_abr'],
     right_on=['season', 'week', 'team', 'opponent'],
 ).reset_index()
+
+
+odds_and_stats_merged["dup_count"] = odds_and_stats_merged.groupby("game_id")["game_id"].transform("count")
+dupes = odds_and_stats_merged[odds_and_stats_merged['dup_count'] > 2]
+
+test = dupes[dupes['game_id'] == '2000.0_week_1_New_Orleans_Saints_Detroit_Lions']
+test.head()
+
+stat_test = df_stats[(df_stats['week'] == 1) & (df_stats['season'] == 2000) & ((df_stats['team'] == 'NO') |(df_stats['team'] == 'DET'))]
+df_stats.head()
+
+
+df = nfl.import_weekly_data(range(2000, 2001), downcast=True)
+
+df_team_weekly = df.groupby(['recent_team', 'opponent_team', 'season', 'week'])[[
+    'passing_yards',
+    'passing_tds',
+    'interceptions',
+    'sacks',
+    'rushing_yards',
+    'rushing_tds'
+]].sum().reset_index()
+
+test = df[(df['recent_team'] == 'DET') & (df['opponent_team'] == 'DET')]
+
+

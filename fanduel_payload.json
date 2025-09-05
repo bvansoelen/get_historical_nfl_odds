@@ -1,0 +1,1599 @@
+{
+    "content": {
+        "odds": {
+            "defaultTab": 1,
+            "tabsDisplayOrder": [1, 150, 214],
+            "tabs": {
+                "1": {
+                    "id": 1,
+                    "title": "Popular",
+                    "cards": [{"id": 1}],
+                    "isSameGameMulti": False,
+                    "description": {
+                        "title": "Popular",
+                        "body": "Popular american football markets",
+                        "footer": None,
+                    },
+                },
+                "150": {
+                    "id": 150,
+                    "title": "Same Game Parlay™",
+                    "cards": [{"id": 150}],
+                    "isSameGameMulti": True,
+                    "description": None,
+                },
+                "214": {
+                    "id": 214,
+                    "title": "Scoring",
+                    "cards": [{"id": 214}],
+                    "isSameGameMulti": False,
+                    "description": None,
+                },
+            },
+            "cards": {
+                "1": {
+                    "id": 1,
+                    "type": "EVENT_CARD",
+                    "title": "Popular",
+                    "marketTypes": ["BIG_3"],
+                    "isSameGameMulti": False,
+                    "attachmentsDependent": True,
+                    "attachmentsFullyLoaded": False,
+                },
+                "150": {
+                    "id": 150,
+                    "type": "EVENT_CARD",
+                    "title": "Same Game Parlay™",
+                    "marketTypes": ["BIG_3"],
+                    "isSameGameMulti": True,
+                    "attachmentsDependent": True,
+                    "attachmentsFullyLoaded": False,
+                },
+                "214": {
+                    "id": 214,
+                    "type": "EVENT_CARD",
+                    "title": "Scoring",
+                    "marketTypes": ["WINNING_MARGIN_(4-WAY)"],
+                    "isSameGameMulti": False,
+                    "attachmentsDependent": True,
+                    "attachmentsFullyLoaded": True,
+                    "display": [
+                        {
+                            "marketLayoutTemplate": "MultiColumnMarketName",
+                            "competitionId": 12282733,
+                            "rows": [
+                                {"eventId": 34662296, "marketIds": ["718.137931101"]}
+                            ],
+                        }
+                    ],
+                },
+            },
+            "marketBlurbs": {
+                "competitions": {
+                    "12282733": {
+                        "ANY_TIME_TOUCHDOWN_SCORER": [
+                            "Tap a player name or icon for stats and more betting options.",
+                            "Anytime TD: A touchdown scorer is a player who carries or receives the ball in the end zone, not the QB or player who passes the ball.",
+                            "This is an all-in market. If no team scores a touchdown, individual players & team defense selections will be settled as a loss.",
+                            "Please see Game Specials for the no touchdown scorer selection.",
+                            "Defense selection does not include Special Teams.",
+                        ],
+                        "1ST_TEAM_TOUCHDOWN_SCORER": [
+                            "The winner is the player who carries or receives the ball in the end zone for the respective team's first TD (not the QB or player who passes the ball).",
+                            "Defense selection does not include Special Teams.",
+                            "This is an all-in market. If the respective team does not score a touchdown, individual players & team defense selections will be settled as a loss.",
+                        ],
+                        "ANYTIME_1ST_HALF_TD_SCORER": [
+                            "Tap a player name or icon for stats and more betting options.",
+                            "The winner is the player who carries or receives the ball in the end zone during the 1st half, not the QB or player who passes the ball.",
+                            "This is an all-in market. If no team scores a touchdown in the 1st half, individual players & team defense selections will be settled as a loss.",
+                            "Defense selection does not include Special Teams.",
+                        ],
+                        "ANYTIME_2ND_HALF_TD_SCORER": [
+                            "Tap a player name or icon for stats and more betting options.",
+                            "The winner is the player who carries or receives the ball in the end zone during the 2nd half (including Overtime).",
+                            "This is an all-in market. If no team scores a touchdown in the 2nd half, individual players & team defense selections will be settled as a loss.",
+                            "Defense selection does not include Special Teams.",
+                        ],
+                        "X_TOUCHDOWN_SCORER": [
+                            "The winner is the player who carries or receives the ball in the end zone (not the QB or player who passes the ball)."
+                        ],
+                        "1ST_HALF_WINNER_THREE_WAY": [
+                            'If the score is a tie at the end of the First Half, the winning wager would be "Tie"'
+                        ],
+                        "1ST_QUARTER_WINNER_THREE_WAY": [
+                            'If the score is a tie at the end of the First Quarter, the winning wager would be "Tie"'
+                        ],
+                        "2ND_QUARTER_WINNER_THREE_WAY": [
+                            'If both teams score the same number of points within the 2nd Quarter, the winning bet is "Tie"'
+                        ],
+                        "3RD_QUARTER_WINNER_THREE_WAY": [
+                            'If both teams score the same number of points within the 3rd Quarter, the winning bet is "Tie"'
+                        ],
+                        "4TH_QUARTER_WINNER_THREE_WAY": [
+                            'If both teams score the same number of points within the 4th Quarter, the winning bet is "Tie"'
+                        ],
+                        "TO_SCORE_2+_TOUCHDOWNS": [
+                            "Tap a player name or icon for stats and more betting options.",
+                            "The touchdown scorer is the player who carries or receives the ball in the end zone, not the QB who passes the ball.",
+                            "Defense selection does not include Special Teams.",
+                        ],
+                        "TO_SCORE_3+_TOUCHDOWNS": [
+                            "Tap a player name or icon for stats and more betting options.",
+                            "The touchdown scorer is the player who carries or receives the ball in the end zone, not the QB who passes the ball.",
+                            "Defense selection does not include Special Teams.",
+                        ],
+                        "2ND_HALF_WINNER": [
+                            "Second Half markets refer to results from only the second half and overtime if played"
+                        ],
+                        "1ST_HALF_WINNER": [
+                            "First Half markets refer to results from only the first half"
+                        ],
+                        "1ST_QUARTER_WINNER": [
+                            "First Quarter markets refer to results from only the first quarter"
+                        ],
+                        "2ND_QUARTER_WINNER": [
+                            "Second Quarter markets refer to results from only the second quarter"
+                        ],
+                        "3RD_QUARTER_WINNER": [
+                            "Third Quarter markets refer to results from only the third quarter"
+                        ],
+                        "4TH_QUARTER_WINNER": [
+                            "Fourth Quarter markets refer to results from only the fourth quarter"
+                        ],
+                        "X_DRIVE_RESULT": [
+                            "Any Other' includes turnovers, defensive touchdowns, safeties and Special Teams scores that aren't Field Goals or Kickoff Returns for Touchdowns",
+                            'If the clock runs out, the winning bet is "Any Other"',
+                            "PATs are not Field Goal Attempts",
+                        ],
+                        "1ST_2ND_HALF_TOUCHDOWN_SCORER": [
+                            "The winner is the player who carries or receives the ball in the end zone for the first TD of the 2nd half (not the QB or player who passes the ball).",
+                            "Defense selection does not include Special Teams.",
+                            "This is an all-in market. If no team scores a touchdown in the 2nd half, individual players & team defense selections will be settled as a loss.",
+                        ],
+                        "ANY_TIME_TOUCHDOWN_SCORER_-_LIVE": [
+                            "The TD Scorer is any player who carries or receives the ball in the end zone (not the QB or player who passes the ball)."
+                        ],
+                        "DOUBLE_RESULT": [
+                            "Based on the score at halftime and the score at the end of regulation time (not including overtime)"
+                        ],
+                        "AWAY_TEAM_FIRST_PLAY_ATTEMPT_OF_DRIVE?": [
+                            "Settled per NFL.com. Bet void if neither",
+                            "QB Sack is settled as a rush play",
+                        ],
+                        "HOME_TEAM_FIRST_PLAY_ATTEMPT_OF_DRIVE?": [
+                            "Settled per NFL.com. Bet void if neither",
+                            "QB Sack is settled as a rush play",
+                        ],
+                        "BALL_CROSS_50_YARD_LINE_ON_DRIVE?": [
+                            "Settled per NFL.com. Punts and FG attempts do not count",
+                            "If last play of drive is on the 50, winner is the 'No' selection",
+                        ],
+                        "DRIVE_A_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_B_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_C_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_D_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_E_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_F_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_G_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_H_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_I_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_J_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_K_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_L_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_M_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_N_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_O_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_P_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_Q_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_R_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_S_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_T_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "TOTAL_QUARTERS_WON_-_AWAY_TEAM": ["Ties do not count as wins"],
+                        "TOTAL_QUARTERS_WON_-_HOME_TEAM": ["Ties do not count as wins"],
+                        "TO_WIN_10+_GAMES": [
+                            "Combine up to 8 Selections into a Parlay"
+                        ],
+                        "TO_HAVE_A_WINNING_RECORD": [
+                            "Combine up to 10 selections into a parlay. If a team finishes 8-8-1 bet is settled as a loser."
+                        ],
+                        "ANY_TIME_TOUCHDOWN/MATCH_WINNER_DOUBLE": [
+                            "The TD scorer selection in the parlay refers to the player or defense who carries or receives the ball in the end zone (not the qb who passes the ball).",
+                            "Defense selection does not include Special Teams.",
+                        ],
+                        "1ST_TOUCHDOWN_/_MATCH_WINNER_DOUBLE": [
+                            "The TD scorer selection in the parlay refers to the player or defense who carries or receives the ball in the end zone (not the qb who passes the ball).",
+                            "Defense selection does not include Special Teams.",
+                        ],
+                        "CORRECT_SCORE": [
+                            "All bets are action. Others available upon request."
+                        ],
+                        "QUARTERBACK_A_RUSHING_YARDS": [
+                            "Market not currently available for SGP"
+                        ],
+                        "QUARTERBACK_B_RUSHING_YARDS": [
+                            "Market not currently available for SGP"
+                        ],
+                        "SPP_-_TO_RECORD_5+_RECEPTIONS_(WEEKLY_SPECIAL)": [
+                            "Combine Up To 10 Selections Into A Parlay."
+                        ],
+                        "NFL_LIVE_QUARTER_MARKETS": [
+                            "Refers to Yards attained within that specific Quarter."
+                        ],
+                        "GROUP_METHOD_OF_FIRST_TD": [
+                            "The winner is the method of first TD (as stated by NFL.com) out of the named selection of players below. If no TD is scored between the named players then the winning selection is no TD scored."
+                        ],
+                        "BALL_CROSS_20_YARD_LINE_ON_DRIVE?": [
+                            "Settled per NFL.com. Punts and FG attempts do not count",
+                            "If last play of drive is on the Opponent's 20, winner is the 'No' selection",
+                        ],
+                        "FIRST_PLAY_OF_THE_GAME_FROM_SCRIMMAGE": [
+                            'Kickoffs Excluded. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "FIRST_PLAY_OF_SECOND_HALF_FROM_SCRIMMAGE": [
+                            'Kickoffs Excluded. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "FIRST_TOUCHDOWN_SCORER_COMBO": [
+                            "A touchdown scorer is a player who carries or receives the ball in the end zone, not the QB or player who passes the ball.",
+                            "All Bets are actioned. Other selections available on request",
+                        ],
+                        "PLAYER_TO_RECORD_MOST_TACKLES_AND_ASSISTS": [
+                            "Dead heat rules apply"
+                        ],
+                        "PLAYER_TO_RECORD_MOST_SACKS": ["Dead heat rules apply"],
+                        "FIRST_DRIVE_PARLAYS": [
+                            '"Any Other" includes turnovers, defensive touchdowns, safeties, and Special Teams scores that aren\'t Field Goals. PATs are not Field Goal Attempts.'
+                        ],
+                        "FIRST_TD_SECOND_TD_PARLAY": [
+                            "TD scorers are the player who carries or receives the ball in the end zone (Not the QB who passes the ball).\nDefense selections do not include Special Teams. \nAll bets are action, others by request."
+                        ],
+                        "SPP_TO_NOT_MAKE_PLAY_OFFS": ["Can parlay up to 3 selections"],
+                        "SPP_-_TO_MAKE_PLAY-OFFS": ["Can parlay up to 7 selections."],
+                        "TO_THROW_FOR_4000+_YARDS_REGULAR_SEASON": [
+                            "Can parlay up to 6 selections"
+                        ],
+                        "TO_WIN_X+_GAMES_NFL": [
+                            "Combine up to 4 selection into a parlay"
+                        ],
+                        "MATCH_/_TOTAL_POINTS_DOUBLE": [
+                            "Tie game results in all selections being void."
+                        ],
+                        "PLAYER_TO_RECORD_A_SACK": [
+                            "Half sacks are included, so players that record 0.5 sacks will be deemed winners. Settled off NFL.com"
+                        ],
+                        "FIRST_TEAM_TO_ENTER_THE_REDZONE": [
+                            "All touchdowns will count as reaching the Red Zone"
+                        ],
+                        "NFL_LIVE_PLAYER_QUARTER_PARLAYS": [
+                            "Refers to Yards attained within that specific Quarter."
+                        ],
+                        "TOUCHDOWN_INSURANCE": [
+                            "The winner is any player who carries or receives the ball in the end zone (not the QB who passes the ball).",
+                            "Defense selection does not include Special Teams.",
+                            "If at least one of the players in the selection does not play a snap, the bet is void.",
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_A": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_B": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_D": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "OPENING_KICKOFF_TO_BE_A_TOUCHBACK": [
+                            "Settled per NFL.com Game book. Please see https://operations.nfl.com/the-rules/rules-changes/new-dynamic-kickoff-rule-explainer/ for updated kickoff rules."
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_E": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_F": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_G": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_H": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_I": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_J": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_K": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_M": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_N": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_O": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_P": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_Q": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_R": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_S": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_T": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_U": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_V": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_W": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_X": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "NEXT_PLAY_FROM_SCRIMMAGE_C": [
+                            'Kickoffs and Punt returns excluded. Bets VOID if drive does not have an offensive play. Settled per NFL.com Play by Play. If listed as "No Play" on NFL.com, bets are action on following play.'
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_A": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_B": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_C": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_D": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_E": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_Z": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_Y": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_X": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_W": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_U": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_F": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_H": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_G": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_I": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_J": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_K": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_L": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_M": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_N": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_O": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_P": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_Q": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_R": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_S": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_T": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "PLAYER_TO_HAVE_MOST_SCRIMMAGE_YARDS_-_DRIVE_V": [
+                            "Winner is determined by which listed player has most rushing + receiving yards within the group on the listed drive. Market is void if no listed player has 1+ yard on the drive. Dead-heat rules apply."
+                        ],
+                        "SUPER_BOWL_SQUARES_-_FINAL_SCORE": [
+                            'Bet settled on the last digit of each team\'s score at the end of the game. For example, if the Browns beat the Broncos 27-24, the winning result would be "Browns 7 - Broncos 4."'
+                        ],
+                        "DRIVE-THRU_MENU_A": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_B": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_C": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_D": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_E": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_F": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_G": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_H": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_I": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_J": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_K": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_L": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_O": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_N": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_M": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_P": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_Q": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_R": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_S": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_T": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_U": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_V": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_W": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_X": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_Y": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "DRIVE-THRU_MENU_Z": [
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs)."
+                        ],
+                        "AWAY_TEAM_-_X_DRIVE_RESULT": [
+                            "Any Other' includes turnovers, defensive touchdowns, safeties and Special Teams scores that aren't Field Goals or Kickoff Returns for Touchdowns",
+                            'If the clock runs out, the winning bet is "Any Other"',
+                            "PATs are not Field Goal Attempts",
+                            'Two-point conversion attempts are not considered "Any Other"',
+                        ],
+                        "HOME_TEAM_-_X_DRIVE_RESULT": [
+                            "Any Other' includes turnovers, defensive touchdowns, safeties and Special Teams scores that aren't Field Goals or Kickoff Returns for Touchdowns",
+                            'If the clock runs out, the winning bet is "Any Other"',
+                            "PATs are not Field Goal Attempts",
+                            'Two-point conversion attempts are not considered "Any Other"',
+                        ],
+                        "LIVE_SQUARES_-_FINAL_SCORE": [
+                            'Bets settled on the last digit of each team\'s score at end of game, including any overtime. For example, if the Chiefs beat the 49ers 27-24, the winning result would be "49ers 4 - Chiefs 7"'
+                        ],
+                        "DRIVE_U_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NLF.com box score.",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_V_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score.",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_W_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score.",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_X_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score.",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_Y_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score.",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "DRIVE_Z_PLAYER_TO_CATCH_PASS?": [
+                            "Receptions determined by NFL.com box score.",
+                            "Bets void if there is not at least one offensive snap (excluding QB kneel downs).",
+                        ],
+                        "SUPER_BOWL_SQUARES_-_1ST_QUARTER_SCORE": [
+                            "Bets settled on the last digit of each team's score at the end of the 1st Quarter. For example, if the 49ers have 13 points and the Chiefs have 10 points, winning result is '49ers 3 - Chiefs 0'"
+                        ],
+                        "SUPER_BOWL_SQUARES_-_HALF_TIME_SCORE": [
+                            "Bets settled on the last digit of each team's score at the end of the 2nd Quarter. For example, if the 49ers have 21 points and the Chiefs have 14 points, winning result is '49ers 1 - Chiefs 4'"
+                        ],
+                        "FANDUEL_SQUARES_-_ANY_QUARTER": [
+                            'Winners paid once. Based on last digit of each team\'s total game points at the end of every quarter and overtime. Example: If the game score at half is 49ers 13, Chiefs 21, "49ers 3 - Chiefs 1" wins.'
+                        ],
+                        "PLAYER_TO_RECORD_FIRST_TEAM_X_SACK": ["Dead heat rules apply"],
+                        "PLAYER_TO_RECORD_FIRST_TEAM_Y_SACK": ["Dead heat rules apply"],
+                        "X_TEAMS_STARTING_QB": [
+                            "Void if Neither Quarterback Starts Week 1"
+                        ],
+                        "CFB_TO_MAKE_PLAYOFFS_SPP": ["Can parlay up to 9 selections."],
+                        "MOST_RECEIVING_YARDS": [
+                            "The player with the most receiving yards in the game (or week if weekly specials) will be settled as the winner, including any unlisted players."
+                        ],
+                        "MOST_RUSHING_YARDS": [
+                            "The player with the most rushing yards in the game will be settled as the winner, including any unlisted players."
+                        ],
+                        "HOME_-_NEXT_COMP/RUSH/REC_1": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "HOME_-_NEXT_COMP/RUSH/REC_2": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "ROAD_-_NEXT_COMP/RUSH/REC_1": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "ROAD_-_NEXT_COMP/RUSH/REC_3": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "HOME_-_NEXT_COMP/RUSH/REC_3": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "ROAD_-_NEXT_COMP/RUSH/REC_4": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "ROAD_-_NEXT_COMP/RUSH/REC_5": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "ROAD_-_NEXT_COMP/RUSH/REC_2": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "ROAD_-_NEXT_COMP/RUSH/REC_6": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "ROAD_-_NEXT_COMP/RUSH/REC_7": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "ROAD_-_NEXT_COMP/RUSH/REC_8": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "ROAD_-_NEXT_COMP/RUSH/REC_10": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "ROAD_-_NEXT_COMP/RUSH/REC_9": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "ROAD_-_NEXT_COMP/RUSH/REC_11": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "ROAD_-_NEXT_COMP/RUSH/REC_12": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "HOME_-_NEXT_COMP/RUSH/REC_4": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "HOME_-_NEXT_COMP/RUSH/REC_5": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "HOME_-_NEXT_COMP/RUSH/REC_6": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "HOME_-_NEXT_COMP/RUSH/REC_7": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "HOME_-_NEXT_COMP/RUSH/REC_8": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "HOME_-_NEXT_COMP/RUSH/REC_9": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "HOME_-_NEXT_COMP/RUSH/REC_10": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "HOME_-_NEXT_COMP/RUSH/REC_11": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "HOME_-_NEXT_COMP/RUSH/REC_12": [
+                            "If player does not have a completion/rush/reception on listed drive, the bet is void."
+                        ],
+                        "1ST_QUARTER_HANDICAP": [
+                            "1st Quarter Spread refers to the result from only the first quarter"
+                        ],
+                        "2ND_QUARTER_HANDICAP": [
+                            "2nd Quarter Spread refers to the result from only the second quarter"
+                        ],
+                        "3RD_QUARTER_HANDICAP": [
+                            "3rd Quarter Spread refers to the result from only the third quarter"
+                        ],
+                        "4TH_QUARTER_HANDICAP": [
+                            "4th Quarter Spread refers to the result from only the fourth quarter"
+                        ],
+                        "NEXT_KICKOFF_TO_BE_A_TOUCHBACK_OR_FAIR_CATCH_A": [
+                            "Settled per NFL.com Game book. Please see https://operations.nfl.com/the-rules/rules-changes/new-dynamic-kickoff-rule-explainer/ for updated kickoff rules for 2024 season."
+                        ],
+                        "NEXT_KICKOFF_TO_BE_A_TOUCHBACK_OR_FAIR_CATCH_B": [
+                            "Settled per NFL.com Game book. Please see https://operations.nfl.com/the-rules/rules-changes/new-dynamic-kickoff-rule-explainer/ for updated kickoff rules for 2024 season."
+                        ],
+                        "NEXT_KICKOFF_TO_BE_A_TOUCHBACK_OR_FAIR_CATCH_C": [
+                            "Settled per NFL.com Game book. Please see https://operations.nfl.com/the-rules/rules-changes/new-dynamic-kickoff-rule-explainer/ for updated kickoff rules for 2024 season."
+                        ],
+                        "NEXT_KICKOFF_TO_BE_A_TOUCHBACK_OR_FAIR_CATCH_D": [
+                            "Settled per NFL.com Game book. Please see https://operations.nfl.com/the-rules/rules-changes/new-dynamic-kickoff-rule-explainer/ for updated kickoff rules for 2024 season."
+                        ],
+                        "EITHER_PLAYER_-_ANY_TIME_TOUCHDOWN_SCORER": [
+                            "A touchdown scorer is a player who carries or receives the ball in the end zone, not the QB or player who passes the ball.",
+                            "Defense selection does not include Special Teams.",
+                            "This is an all-in market. If no team scores a touchdown, individual players & team defense selections will be settled as a loss.",
+                        ],
+                        "EITHER_PLAYER_-_FIRST_TOUCHDOWN_SCORER": [
+                            "A touchdown scorer is a player who carries or receives the ball in the end zone, not the QB or player who passes the ball.",
+                            "Defense selection does not include Special Teams.",
+                            "This is an all-in market. If no team scores a touchdown, individual players & team defense selections will be settled as a loss.",
+                        ],
+                        "EITHER_PLAYER_-_TO_SCORE_2+_TOUCHDOWNS": [
+                            "A touchdown scorer is a player who carries or receives the ball in the end zone, not the QB or player who passes the ball.",
+                            "Defense selection does not include Special Teams.",
+                            "This is an all-in market. If no team scores a touchdown, individual players & team defense selections will be settled as a loss.",
+                        ],
+                        "FIRST_TOUCHDOWN_SCORER": [
+                            "Tap a player name or icon for stats and more betting options.",
+                            "First TD: The winner is the player who carries or receives the ball in the endzone for the first TD of the game (not the QB or player who passes the ball).",
+                            "This is an all-in market - if no team scores a touchdown, individual players & team defense selections will be settled as a loss.",
+                            "Please see Game Specials for the no touchdown scorer selection.",
+                            "Defense selection does not include Special Teams.",
+                        ],
+                        "TO_REACH_NFC_CHAMPIONSHIP_GAME": [
+                            "Can parlay 1 selection from each Conference."
+                        ],
+                        "TO_REACH_AFC_CHAMPIONSHIP_GAME": [
+                            "Can parlay 1 selection from each Conference."
+                        ],
+                        "CORRECT_SCORE_-_1ST_QUARTER": [
+                            "All bets are action. Others available upon request."
+                        ],
+                        "CORRECT_SCORE_-_1ST_HALF": [
+                            "All bets are action. Others available upon request."
+                        ],
+                        "2ND_PUNT_RESULT": [
+                            "For settlement purposes, any muffed or fumbled return will be considered Returned. Any blocked punt will be considered Not Returned."
+                        ],
+                        "3RD_PUNT_RESULT": [
+                            "For settlement purposes, any muffed or fumbled return will be considered Returned. Any blocked punt will be considered Not Returned."
+                        ],
+                        "4TH_PUNT_RESULT": [
+                            "For settlement purposes, any muffed or fumbled return will be considered Returned. Any blocked punt will be considered Not Returned."
+                        ],
+                        "5TH_PUNT_RESULT": [
+                            "For settlement purposes, any muffed or fumbled return will be considered Returned. Any blocked punt will be considered Not Returned."
+                        ],
+                        "6TH_PUNT_RESULT": [
+                            "For settlement purposes, any muffed or fumbled return will be considered Returned. Any blocked punt will be considered Not Returned."
+                        ],
+                        "7TH_PUNT_RESULT": [
+                            "For settlement purposes, any muffed or fumbled return will be considered Returned. Any blocked punt will be considered Not Returned."
+                        ],
+                        "8TH_PUNT_RESULT": [
+                            "For settlement purposes, any muffed or fumbled return will be considered Returned. Any blocked punt will be considered Not Returned."
+                        ],
+                        "9TH_PUNT_RESULT": [
+                            "For settlement purposes, any muffed or fumbled return will be considered Returned. Any blocked punt will be considered Not Returned."
+                        ],
+                        "10TH_PUNT_RESULT": [
+                            "For settlement purposes, any muffed or fumbled return will be considered Returned. Any blocked punt will be considered Not Returned."
+                        ],
+                        "1ST_PUNT_RESULT": [
+                            "For settlement purposes, any muffed or fumbled return will be considered Returned. Any blocked punt will be considered Not Returned."
+                        ],
+                        "3RD_KICKOFF_RESULT": [
+                            "Determined by the field position of the next offensive snap in relation to the return team, with the exception of a TD by the return team (Own 31+ Yard Line) or kicking team (Own 29 or less Yard Line)"
+                        ],
+                        "4TH_KICKOFF_RESULT": [
+                            "Determined by the field position of the next offensive snap in relation to the return team, with the exception of a TD by the return team (Own 31+ Yard Line) or kicking team (Own 29 or less Yard Line)"
+                        ],
+                        "5TH_KICKOFF_RESULT": [
+                            "Determined by the field position of the next offensive snap in relation to the return team, with the exception of a TD by the return team (Own 31+ Yard Line) or kicking team (Own 29 or less Yard Line)"
+                        ],
+                        "7TH_KICKOFF_RESULT": [
+                            "Determined by the field position of the next offensive snap in relation to the return team, with the exception of a TD by the return team (Own 31+ Yard Line) or kicking team (Own 29 or less Yard Line)"
+                        ],
+                        "6TH_KICKOFF_RESULT": [
+                            "Determined by the field position of the next offensive snap in relation to the return team, with the exception of a TD by the return team (Own 31+ Yard Line) or kicking team (Own 29 or less Yard Line)"
+                        ],
+                        "8TH_KICKOFF_RESULT": [
+                            "Determined by the field position of the next offensive snap in relation to the return team, with the exception of a TD by the return team (Own 31+ Yard Line) or kicking team (Own 29 or less Yard Line)"
+                        ],
+                        "9TH_KICKOFF_RESULT": [
+                            "Determined by the field position of the next offensive snap in relation to the return team, with the exception of a TD by the return team (Own 31+ Yard Line) or kicking team (Own 29 or less Yard Line)"
+                        ],
+                        "10TH_KICKOFF_RESULT": [
+                            "Determined by the field position of the next offensive snap in relation to the return team, with the exception of a TD by the return team (Own 31+ Yard Line) or kicking team (Own 29 or less Yard Line)"
+                        ],
+                        "11TH_KICKOFF_RESULT": [
+                            "Determined by the field position of the next offensive snap in relation to the return team, with the exception of a TD by the return team (Own 31+ Yard Line) or kicking team (Own 29 or less Yard Line)"
+                        ],
+                        "12TH_KICKOFF_RESULT": [
+                            "Determined by the field position of the next offensive snap in relation to the return team, with the exception of a TD by the return team (Own 31+ Yard Line) or kicking team (Own 29 or less Yard Line)"
+                        ],
+                        "13TH_KICKOFF_RESULT": [
+                            "Determined by the field position of the next offensive snap in relation to the return team, with the exception of a TD by the return team (Own 31+ Yard Line) or kicking team (Own 29 or less Yard Line)"
+                        ],
+                        "14TH_KICKOFF_RESULT": [
+                            "Determined by the field position of the next offensive snap in relation to the return team, with the exception of a TD by the return team (Own 31+ Yard Line) or kicking team (Own 29 or less Yard Line)"
+                        ],
+                        "15TH_KICKOFF_RESULT": [
+                            "Determined by the field position of the next offensive snap in relation to the return team, with the exception of a TD by the return team (Own 31+ Yard Line) or kicking team (Own 29 or less Yard Line)"
+                        ],
+                        "2ND_KICKOFF_RESULT": [
+                            "Determined by the field position of the next offensive snap in relation to the return team, with the exception of a TD by the return team (Own 31+ Yard Line) or kicking team (Own 29 or less Yard Line)"
+                        ],
+                        "PLAYER_TO_RECORD_AN_OCTOPUS": [
+                            "This is a bet on a player to score a touchdown and a 2 point conversion in the same drive. The player must carry or receive the ball in the end zone, not the QB or player who passes the ball."
+                        ],
+                        "REGULAR_SEASON_MVP": [
+                            "Bets only apply to the 2025-26 AP Regular Season MVP. Settled off results of Associated Press voting."
+                        ],
+                        "RACE_TO_10": ["Bets void if neither team reaches 10 points."],
+                        "RACE_TO_5": ["Bets void if neither team reaches 5 points."],
+                        "RACE_TO_15": ["Bets void if neither team reaches 15 points."],
+                        "RACE_TO_20": ["Bets void if neither team reaches 20 points."],
+                        "RACE_TO_25": ["Bets void if neither team reaches 25 points."],
+                        "RACE_TO_30": ["Bets void if neither team reaches 30 points."],
+                        "2ND_HALF_RACE_TO_5": [
+                            "Bets void if neither team reaches 5 points scored in the second half."
+                        ],
+                        "2ND_HALF_RACE_TO_10": [
+                            "Bets void if neither team reaches 10 points scored in the second half."
+                        ],
+                        "2ND_HALF_RACE_TO_15": [
+                            "Bets void if neither team reaches 15 points scored in the second half."
+                        ],
+                        "2ND_HALF_RACE_TO_20": [
+                            "Bets void if neither team reaches 20 points scored in the second half."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_AWAY_1": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_AWAY_2": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_AWAY_3": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_AWAY_4": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_AWAY_5": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_AWAY_6": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_AWAY_7": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_AWAY_8": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_AWAY_9": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_AWAY_10": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_AWAY_11": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_AWAY_12": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_AWAY_13": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_HOME_1": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_HOME_2": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_HOME_3": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_HOME_4": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_HOME_5": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_HOME_6": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_HOME_7": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_HOME_8": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_HOME_9": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_HOME_10": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_HOME_11": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_HOME_12": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_20_HOME_13": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_HOME_1": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_HOME_2": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_HOME_3": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_HOME_4": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_HOME_5": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_HOME_6": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_HOME_7": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_HOME_8": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_HOME_9": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_HOME_10": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_HOME_11": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_HOME_12": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_HOME_13": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_AWAY_1": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_AWAY_2": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_AWAY_3": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_AWAY_4": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_AWAY_5": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_AWAY_6": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_AWAY_7": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_AWAY_8": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_AWAY_9": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_AWAY_10": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_AWAY_11": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_AWAY_12": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "CFB_DRIVE_TO_CROSS_50_AWAY_13": [
+                            "Drive must start with ball starting behind specified yardline, or void. If team reaches specific yardline & loses the ball on the play, or scores an Offensive TD, Yes is the winning selection."
+                        ],
+                        "DEFENSIVE_PLAYER_ANY_TIME_TOUCHDOWN_SCORER": [
+                            "If a player listed in the Defensive Player Any Time Touchdown Scorer market scores a touchdown on Offense/Special Teams only, then their selection in this market will be settled as a loss."
+                        ],
+                    }
+                },
+                "markets": {},
+            },
+            "promotions": {},
+            "page": {
+                "eventTypeId": 6423,
+                "competitionId": "12282733",
+                "eventId": 34662296,
+            },
+        },
+        "boxScore": {"isAvailable": False, "data": None},
+        "playByPlay": {"isAvailable": False, "data": None},
+        "homeTeam": {
+            "shortName": "DET Lions",
+            "abbrName": "DET",
+            "logo": "https://assets.sportsbook.fanduel.com/images/team/nfl/detroit_lions.png",
+            "name": "Detroit Lions",
+        },
+        "awayTeam": {
+            "shortName": "CHI Bears",
+            "abbrName": "CHI",
+            "logo": "https://assets.sportsbook.fanduel.com/images/team/nfl/chicago_bears.png",
+            "name": "Chicago Bears",
+        },
+        "openDate": "2025-09-14T17:01:00.000Z",
+    },
+    "attachments": {
+        "eventTypes": {"6423": {"eventTypeId": 6423, "name": "American Football"}},
+        "events": {
+            "34662296": {
+                "competitionId": 12282733,
+                "inPlay": False,
+                "eventId": 34662296,
+                "key": "EVENT:34662296",
+                "name": "Chicago Bears @ Detroit Lions",
+                "eventTypeId": 6423,
+                "countryCode": "GB",
+                "timezone": "GMT",
+                "openDate": "2025-09-14T17:01:00.000Z",
+                "videoAvailable": False,
+                "primaryMarketId": "718.137931105",
+            }
+        },
+        "markets": {
+            "718.137931105": {
+                "marketId": "718.137931105",
+                "eventTypeId": 6423,
+                "competitionId": 12282733,
+                "eventId": 34662296,
+                "marketName": "Spread",
+                "marketTime": "2025-09-14T17:01:00.000Z",
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "bspMarket": False,
+                "sgmMarket": True,
+                "inPlay": False,
+                "numberOfRunners": 2,
+                "numberOfActiveRunners": 2,
+                "numberOfWinners": 1,
+                "sortPriority": -890,
+                "bettingType": "MOVING_HANDICAP",
+                "marketStatus": "OPEN",
+                "runners": [
+                    {
+                        "selectionId": 50194,
+                        "handicap": 5.5,
+                        "runnerName": "Chicago Bears",
+                        "sortPriority": 1,
+                        "result": {"type": "AWAY"},
+                        "runnerStatus": "ACTIVE",
+                        "logo": "https://assets.sportsbook.fanduel.com/images/team/nfl/chicago_bears.png",
+                        "nameAbbr": "CHI Bears",
+                        "winRunnerOdds": {
+                            "americanDisplayOdds": {
+                                "americanOdds": -108,
+                                "americanOddsInt": -108,
+                            },
+                            "trueOdds": {
+                                "decimalOdds": {"decimalOdds": 1.925925925925926},
+                                "fractionalOdds": {
+                                    "numerator": 100,
+                                    "denominator": 108,
+                                },
+                            },
+                        },
+                        "previousWinRunnerOdds": [
+                            {
+                                "americanDisplayOdds": {
+                                    "americanOdds": -110,
+                                    "americanOddsInt": -110,
+                                },
+                                "trueOdds": {
+                                    "decimalOdds": {"decimalOdds": 1.909090909090909},
+                                    "fractionalOdds": {
+                                        "numerator": 100,
+                                        "denominator": 110,
+                                    },
+                                },
+                            }
+                        ],
+                    },
+                    {
+                        "selectionId": 50193,
+                        "handicap": -5.5,
+                        "runnerName": "Detroit Lions",
+                        "sortPriority": 2,
+                        "result": {"type": "HOME"},
+                        "runnerStatus": "ACTIVE",
+                        "logo": "https://assets.sportsbook.fanduel.com/images/team/nfl/detroit_lions.png",
+                        "nameAbbr": "DET Lions",
+                        "winRunnerOdds": {
+                            "americanDisplayOdds": {
+                                "americanOdds": -112,
+                                "americanOddsInt": -112,
+                            },
+                            "trueOdds": {
+                                "decimalOdds": {"decimalOdds": 1.892857142857143},
+                                "fractionalOdds": {
+                                    "numerator": 100,
+                                    "denominator": 112,
+                                },
+                            },
+                        },
+                        "previousWinRunnerOdds": [
+                            {
+                                "americanDisplayOdds": {
+                                    "americanOdds": -110,
+                                    "americanOddsInt": -110,
+                                },
+                                "trueOdds": {
+                                    "decimalOdds": {"decimalOdds": 1.909090909090909},
+                                    "fractionalOdds": {
+                                        "numerator": 100,
+                                        "denominator": 110,
+                                    },
+                                },
+                            }
+                        ],
+                    },
+                ],
+                "canTurnInPlay": True,
+                "associatedMarkets": [
+                    {
+                        "eventId": 34662296,
+                        "eventTypeId": 6423,
+                        "externalMarketId": "42.524719867",
+                    }
+                ],
+                "shouldDisplayStatsInRunner": True,
+                "eachwayAvailable": False,
+                "legTypes": ["SIMPLE_SELECTION"],
+            },
+            "718.137931103": {
+                "marketId": "718.137931103",
+                "eventTypeId": 6423,
+                "competitionId": 12282733,
+                "eventId": 34662296,
+                "marketName": "Moneyline",
+                "marketTime": "2025-09-14T17:01:00.000Z",
+                "marketType": "MONEY_LINE",
+                "bspMarket": False,
+                "sgmMarket": True,
+                "inPlay": False,
+                "numberOfRunners": 2,
+                "numberOfActiveRunners": 2,
+                "numberOfWinners": 1,
+                "sortPriority": -900,
+                "bettingType": "ODDS",
+                "marketStatus": "OPEN",
+                "runners": [
+                    {
+                        "selectionId": 50194,
+                        "handicap": 0,
+                        "runnerName": "Chicago Bears",
+                        "sortPriority": 1,
+                        "result": {"type": "AWAY"},
+                        "runnerStatus": "ACTIVE",
+                        "logo": "https://assets.sportsbook.fanduel.com/images/team/nfl/chicago_bears.png",
+                        "nameAbbr": "CHI Bears",
+                        "winRunnerOdds": {
+                            "americanDisplayOdds": {
+                                "americanOdds": 200,
+                                "americanOddsInt": 200,
+                            },
+                            "trueOdds": {
+                                "decimalOdds": {"decimalOdds": 3},
+                                "fractionalOdds": {
+                                    "numerator": 200,
+                                    "denominator": 100,
+                                },
+                            },
+                        },
+                        "previousWinRunnerOdds": [
+                            {
+                                "americanDisplayOdds": {
+                                    "americanOdds": 205,
+                                    "americanOddsInt": 205,
+                                },
+                                "trueOdds": {
+                                    "decimalOdds": {"decimalOdds": 3.05},
+                                    "fractionalOdds": {
+                                        "numerator": 205,
+                                        "denominator": 100,
+                                    },
+                                },
+                            }
+                        ],
+                    },
+                    {
+                        "selectionId": 50193,
+                        "handicap": 0,
+                        "runnerName": "Detroit Lions",
+                        "sortPriority": 2,
+                        "result": {"type": "HOME"},
+                        "runnerStatus": "ACTIVE",
+                        "logo": "https://assets.sportsbook.fanduel.com/images/team/nfl/detroit_lions.png",
+                        "nameAbbr": "DET Lions",
+                        "winRunnerOdds": {
+                            "americanDisplayOdds": {
+                                "americanOdds": -245,
+                                "americanOddsInt": -245,
+                            },
+                            "trueOdds": {
+                                "decimalOdds": {"decimalOdds": 1.408163265306122},
+                                "fractionalOdds": {
+                                    "numerator": 100,
+                                    "denominator": 245,
+                                },
+                            },
+                        },
+                        "previousWinRunnerOdds": [
+                            {
+                                "americanDisplayOdds": {
+                                    "americanOdds": -250,
+                                    "americanOddsInt": -250,
+                                },
+                                "trueOdds": {
+                                    "decimalOdds": {"decimalOdds": 1.4},
+                                    "fractionalOdds": {
+                                        "numerator": 10,
+                                        "denominator": 25,
+                                    },
+                                },
+                            }
+                        ],
+                    },
+                ],
+                "canTurnInPlay": True,
+                "associatedMarkets": [
+                    {
+                        "eventId": 34662296,
+                        "eventTypeId": 6423,
+                        "externalMarketId": "42.524719866",
+                    }
+                ],
+                "shouldDisplayStatsInRunner": True,
+                "eachwayAvailable": False,
+                "legTypes": ["SIMPLE_SELECTION"],
+            },
+            "718.137931104": {
+                "marketId": "718.137931104",
+                "eventTypeId": 6423,
+                "competitionId": 12282733,
+                "eventId": 34662296,
+                "marketName": "Total Match Points",
+                "marketTime": "2025-09-14T17:01:00.000Z",
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "bspMarket": False,
+                "sgmMarket": True,
+                "inPlay": False,
+                "numberOfRunners": 2,
+                "numberOfActiveRunners": 2,
+                "numberOfWinners": 1,
+                "sortPriority": -880,
+                "bettingType": "MOVING_HANDICAP",
+                "marketStatus": "OPEN",
+                "runners": [
+                    {
+                        "selectionId": 7017916,
+                        "handicap": 48.5,
+                        "runnerName": "Over",
+                        "sortPriority": 1,
+                        "result": {"type": "OVER"},
+                        "runnerStatus": "ACTIVE",
+                        "winRunnerOdds": {
+                            "americanDisplayOdds": {
+                                "americanOdds": -105,
+                                "americanOddsInt": -105,
+                            },
+                            "trueOdds": {
+                                "decimalOdds": {"decimalOdds": 1.952380952380952},
+                                "fractionalOdds": {
+                                    "numerator": 100,
+                                    "denominator": 105,
+                                },
+                            },
+                        },
+                        "previousWinRunnerOdds": [
+                            {
+                                "americanDisplayOdds": {
+                                    "americanOdds": -102,
+                                    "americanOddsInt": -102,
+                                },
+                                "trueOdds": {
+                                    "decimalOdds": {"decimalOdds": 1.980392156862745},
+                                    "fractionalOdds": {
+                                        "numerator": 100,
+                                        "denominator": 102,
+                                    },
+                                },
+                            }
+                        ],
+                    },
+                    {
+                        "selectionId": 7017917,
+                        "handicap": 48.5,
+                        "runnerName": "Under",
+                        "sortPriority": 2,
+                        "result": {"type": "UNDER"},
+                        "runnerStatus": "ACTIVE",
+                        "winRunnerOdds": {
+                            "americanDisplayOdds": {
+                                "americanOdds": -115,
+                                "americanOddsInt": -115,
+                            },
+                            "trueOdds": {
+                                "decimalOdds": {"decimalOdds": 1.869565217391304},
+                                "fractionalOdds": {
+                                    "numerator": 100,
+                                    "denominator": 115,
+                                },
+                            },
+                        },
+                        "previousWinRunnerOdds": [
+                            {
+                                "americanDisplayOdds": {
+                                    "americanOdds": -120,
+                                    "americanOddsInt": -120,
+                                },
+                                "trueOdds": {
+                                    "decimalOdds": {"decimalOdds": 1.833333333333333},
+                                    "fractionalOdds": {
+                                        "numerator": 100,
+                                        "denominator": 120,
+                                    },
+                                },
+                            }
+                        ],
+                    },
+                ],
+                "canTurnInPlay": True,
+                "associatedMarkets": [
+                    {
+                        "eventId": 34662296,
+                        "eventTypeId": 6423,
+                        "externalMarketId": "42.524719869",
+                    }
+                ],
+                "shouldDisplayStatsInRunner": True,
+                "eachwayAvailable": False,
+                "legTypes": ["SIMPLE_SELECTION"],
+            },
+            "718.137931101": {
+                "marketId": "718.137931101",
+                "eventTypeId": 6423,
+                "competitionId": 12282733,
+                "eventId": 34662296,
+                "marketName": "Winning Margin (4-Way)",
+                "marketTime": "2025-09-14T17:01:00.000Z",
+                "marketType": "WINNING_MARGIN_(4-WAY)",
+                "bspMarket": False,
+                "sgmMarket": False,
+                "inPlay": False,
+                "numberOfRunners": 4,
+                "numberOfActiveRunners": 4,
+                "numberOfWinners": 1,
+                "sortPriority": 40,
+                "bettingType": "ODDS",
+                "marketStatus": "OPEN",
+                "runners": [
+                    {
+                        "selectionId": 12197287,
+                        "handicap": 0,
+                        "runnerName": "Chicago Bears by 1-13 Pts",
+                        "sortPriority": 1,
+                        "result": {},
+                        "runnerStatus": "ACTIVE",
+                        "winRunnerOdds": {
+                            "americanDisplayOdds": {
+                                "americanOdds": 240,
+                                "americanOddsInt": 240,
+                            },
+                            "trueOdds": {
+                                "decimalOdds": {"decimalOdds": 3.4},
+                                "fractionalOdds": {"numerator": 24, "denominator": 10},
+                            },
+                        },
+                        "previousWinRunnerOdds": [
+                            {
+                                "americanDisplayOdds": {
+                                    "americanOdds": 150,
+                                    "americanOddsInt": 150,
+                                },
+                                "trueOdds": {
+                                    "decimalOdds": {"decimalOdds": 2.5},
+                                    "fractionalOdds": {
+                                        "numerator": 150,
+                                        "denominator": 100,
+                                    },
+                                },
+                            }
+                        ],
+                    },
+                    {
+                        "selectionId": 15290608,
+                        "handicap": 0,
+                        "runnerName": "Chicago Bears 14+",
+                        "sortPriority": 2,
+                        "result": {},
+                        "runnerStatus": "ACTIVE",
+                        "winRunnerOdds": {
+                            "americanDisplayOdds": {
+                                "americanOdds": 1100,
+                                "americanOddsInt": 1100,
+                            },
+                            "trueOdds": {
+                                "decimalOdds": {"decimalOdds": 12},
+                                "fractionalOdds": {"numerator": 11, "denominator": 1},
+                            },
+                        },
+                        "previousWinRunnerOdds": [
+                            {
+                                "americanDisplayOdds": {
+                                    "americanOdds": 1200,
+                                    "americanOddsInt": 1200,
+                                },
+                                "trueOdds": {
+                                    "decimalOdds": {"decimalOdds": 13},
+                                    "fractionalOdds": {
+                                        "numerator": 12,
+                                        "denominator": 1,
+                                    },
+                                },
+                            }
+                        ],
+                    },
+                    {
+                        "selectionId": 12197286,
+                        "handicap": 0,
+                        "runnerName": "Detroit Lions by 1-13 Pts",
+                        "sortPriority": 3,
+                        "result": {},
+                        "runnerStatus": "ACTIVE",
+                        "winRunnerOdds": {
+                            "americanDisplayOdds": {
+                                "americanOdds": 115,
+                                "americanOddsInt": 115,
+                            },
+                            "trueOdds": {
+                                "decimalOdds": {"decimalOdds": 2.15},
+                                "fractionalOdds": {
+                                    "numerator": 115,
+                                    "denominator": 100,
+                                },
+                            },
+                        },
+                        "previousWinRunnerOdds": [
+                            {
+                                "americanDisplayOdds": {
+                                    "americanOdds": 145,
+                                    "americanOddsInt": 145,
+                                },
+                                "trueOdds": {
+                                    "decimalOdds": {"decimalOdds": 2.45},
+                                    "fractionalOdds": {
+                                        "numerator": 145,
+                                        "denominator": 100,
+                                    },
+                                },
+                            }
+                        ],
+                    },
+                    {
+                        "selectionId": 15778730,
+                        "handicap": 0,
+                        "runnerName": "Detroit Lions 14+",
+                        "sortPriority": 4,
+                        "result": {},
+                        "runnerStatus": "ACTIVE",
+                        "winRunnerOdds": {
+                            "americanDisplayOdds": {
+                                "americanOdds": 240,
+                                "americanOddsInt": 240,
+                            },
+                            "trueOdds": {
+                                "decimalOdds": {"decimalOdds": 3.4},
+                                "fractionalOdds": {"numerator": 24, "denominator": 10},
+                            },
+                        },
+                        "previousWinRunnerOdds": [
+                            {
+                                "americanDisplayOdds": {
+                                    "americanOdds": 230,
+                                    "americanOddsInt": 230,
+                                },
+                                "trueOdds": {
+                                    "decimalOdds": {"decimalOdds": 3.3},
+                                    "fractionalOdds": {
+                                        "numerator": 23,
+                                        "denominator": 10,
+                                    },
+                                },
+                            }
+                        ],
+                    },
+                ],
+                "canTurnInPlay": True,
+                "associatedMarkets": [
+                    {
+                        "eventId": 34662296,
+                        "eventTypeId": 6423,
+                        "externalMarketId": "42.524719870",
+                    }
+                ],
+                "shouldDisplayStatsInRunner": True,
+                "eachwayAvailable": False,
+                "legTypes": ["SIMPLE_SELECTION"],
+            },
+        },
+        "competitions": {
+            "12282733": {
+                "key": "COMP:12282733",
+                "name": "NFL",
+                "competitionId": 12282733,
+                "eventId": 29678534,
+                "eventTypeId": 6423,
+                "region": "USA",
+            }
+        },
+    },
+    "layoutConfig": [
+        {
+            "type": "PILLS",
+            "data": [
+                {
+                    "id": "odds",
+                    "showPreLive": True,
+                    "showLoggedOut": True,
+                    "title": "Odds",
+                },
+                {
+                    "id": "box-score",
+                    "showPreLive": False,
+                    "showLoggedOut": True,
+                    "title": "Box Score",
+                },
+                {
+                    "id": "play-by-play",
+                    "showPreLive": False,
+                    "showLoggedOut": True,
+                    "title": "Play By Play",
+                },
+                {
+                    "id": "my-bets",
+                    "showPreLive": True,
+                    "showLoggedOut": False,
+                    "title": "My Bets",
+                },
+            ],
+            "defaultSelected": "odds",
+        },
+        {"type": "SCOREBOARD"},
+        {"type": "DATAVIZ", "config": {"defaultView": "LIVE_STREAM"}},
+        {"type": "PROMO_BANNERS", "config": {}},
+        {"type": "PILL_CONTENT", "config": {}},
+    ],
+    "eventInfo": {
+        "selectedPill": "odds",
+        "isInPlay": False,
+        "eventId": 34662296,
+        "competitionId": 12282733,
+        "eventTypeId": 6423,
+        "comp": "NFL",
+    },
+    "timestamp": datetime.datetime(2025, 9, 5, 1, 39, 39, 545003),
+    "date": "2025-09-05",
+    "game_id": 34662296,
+    "_id": ObjectId("68ba3f5bd14ab3d68e18e37e"),
+}
